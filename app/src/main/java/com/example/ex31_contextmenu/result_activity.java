@@ -131,6 +131,7 @@ public class result_activity extends AppCompatActivity implements AdapterView.On
         }
         return true;
     }
+
     public void back(View view) {
         setResult(RESULT_OK, intentBack);
         finish();
