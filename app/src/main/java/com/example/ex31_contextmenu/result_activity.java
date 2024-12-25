@@ -83,7 +83,6 @@ public class result_activity extends AppCompatActivity implements AdapterView.On
                 exponent--;
             }
         }
-
         return String.format("%.3f * 10^%d", coefficient, exponent);
     }
 
