@@ -66,7 +66,6 @@ public class result_activity extends AppCompatActivity implements AdapterView.On
                 coefficient /= 10;
                 exponent++;
             }
-
             return String.format("%d * 10^%d", (int) coefficient, exponent);
         }
 
